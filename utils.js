@@ -3,10 +3,10 @@ function greet(name) {
 }
 
 function add(a, b) {
-    return a + b;
+    return a - b;
 }
 
-console.log(greet("Developer"));
+console.log(greet("NEW DEVELOPER"));
 console.log("Sum:", add(10, 20));
 
 function now(name) {
@@ -18,4 +18,4 @@ function minus(a, b) {
 }
 
 console.log(now("Developer"));
-console.log("Difference:", minus(100, 20));
+console.log("Difference:", minus(100, 10));
